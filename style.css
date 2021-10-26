@@ -4,8 +4,9 @@
 body {    
     font-family: 'Roboto', sans-serif;
 }
-.clerfix {
-    clear: both;
+.clearfix {
+    clear: both; 
+    
 }
 .container {
     background-color: #E5E5E5;
@@ -29,4 +30,93 @@ body {
     line-height: 16px;
     color: #333333;
     text-decoration: none;
+}
+.main .logo {
+    float: left;
+}
+.main .logo .img {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0 20px 405px;
+    float: left;    
+}
+.main .logo .title {
+    text-decoration: none;
+    color: #F13C6E;    
+    width: 158px;
+    height: 39px;  
+    line-height: 42px;
+    letter-spacing: 0.1em;    
+    float: left;
+    margin: 41px 0 40px 20px;
+}
+.main .action {    
+    float: right;
+}
+.main .action .phone {
+    line-height: 19px;
+    color: #000000;
+    float: left;
+    margin: 50px 40px 51px 0 ;
+}
+.main .action .button {
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;    
+    float: left;
+    margin: 40px 405px 40px 0;
+    padding: 12px 26px 13px 27px;
+}
+.secondnav {
+    background-color: #FFFFFF;
+    max-width: 1920px;
+    height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30px 0 30px 0; 
+}
+.secondnav .secondnav__item {
+    display: inline-block;
+    vertical-align: top;
+}
+.secondnav .secondnav__link {
+    width: 128px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;   
+    color: #000000;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.buy .bg__img {
+    max-width: 1920px;
+    height: 604px;      
+}
+.buy .content {
+    position: absolute;
+}
+.buy .content .title {    
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin: 192px 0 50px 405px;
+}
+.buy .content .description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 308px;
+    margin-left: 405px;
+}
+.buy .content .button {
+    background: #F13C6E;    
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 40px;    
+    float: left;
+    margin: 50px 0 0 405px;
+    padding: 12px 26px 13px 27px;
+    width: 170px;
 }
