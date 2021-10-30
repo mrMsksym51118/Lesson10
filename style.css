@@ -7,8 +7,7 @@ body {
     margin: 0 auto;
 }
 .clearfix {
-    clear: both; 
-    
+    clear: both;     
 }
 .container {
     background-color: #E5E5E5;
@@ -118,8 +117,9 @@ body {
     width: 170px;
     color: white;
 }
-.cards {
-    background-color: #C4C4C4;  
+.bg__color {
+    background-color: #C4C4C4;
+    height: 1869px;
 }
 .cards .title {
     font-weight: bold;
@@ -130,7 +130,8 @@ body {
 }
 .cards .conteiner {    
     height: 363px;    
-    margin-left: 405px;    
+    margin: 0 auto;
+    width: 1122px;   
 }
 .cards .conteiner .card__image {
     margin: 25px 65px 0 65px;
@@ -168,6 +169,9 @@ body {
     vertical-align: top;
     margin-right: 30px;
     background-color: white;           
+}
+.cards .conteiner .cards__list .card:nth-last-child(1) {
+	margin-right: 0;
 }
 .aside {
     background-color: #C4C4C4;   
@@ -256,34 +260,136 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-.categories .conteiner {
+.categories .wrapper {
+    margin: 0 auto;
+    width: 1122px;
+    height: 321px;
+}
+.categories .wrapper .conteiner {
     display: inline-block;
     vertical-align: top;    
-    width: 270px;
+    width: 255px;
+    margin-right: 30px;
+    margin-top: 60px;
 }
-.categories .conteiner .title {
+.categories .wrapper .conteiner:nth-last-child(1) {
+	margin-right: 0;
+}
+.categories .wrapper .conteiner .title {
     font-size: 16px;
     line-height: 140.62%;
     color: #000000;
     width: 99px;
     height: 40px;
 }
-.categories .conteiner .list .item .link {
+.categories .wrapper .conteiner .list .item .link {
     text-decoration: none;
     font-size: 12px;
     line-height: 28px;
     color: #828282;
 }
-.wrapper__left {
+.wrapp .wrappp {    
+    width: 1110px;
+    margin: 0 auto;
+
+}
+.wrapp .wrappp .icons {
     float: left;
 }
-.wrapper__right {
+.wrapp .wrappp .icons .icon__youtoob {
+    float: left;
+    margin: 37px 20px 0 0;    
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    box-sizing: border-box;  
+    display: block;
+    background-image: url(images/youtube.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+}
+.wrapp .wrappp .icons .icon__vk {
+    float: left;
+    margin: 37px 20px 0 0;    
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    box-sizing: border-box;  
+    display: block;
+    background-image: url(images/vk.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+}
+.wrapp .wrappp .icons .icon__facebook {
+    float: left;
+    margin: 37px 20px 0 0;    
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    box-sizing: border-box;  
+    display: block;
+    background-image: url(images/facebook-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+}
+.wrapp .wrappp .icons .icon__inst {
+    float: left;
+    margin: 37px 20px 0 0;    
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    box-sizing: border-box;  
+    display: block;
+    background-image: url(images/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+}
+.wrapp .action {
     float: right;
 }
-.categories .wrap {
-    width: 1110px;
-    margin: 0 auto;  
+.wrapp .wrappp .action .phone {
+    line-height: 19px;
+    color: #000000;
+    margin-top: 50px;
+    float: left;
 }
+.wrapp .wrappp .action .button {
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-left: 40px;
+    padding: 12px 26px 13px 27px;
+    margin-top: 40px;
+    float: left;
+}
+.footerend .bg__color{
+    background-color: #EFEFEF;
+    width: 1920px;
+    height: 64px;    
+}
+.footerend .side {
+    width: 1110px;        
+    margin: 0 auto;
+}
+.footerend .side .left {
+    float: left;
+}
+.footerend .side .right {
+    float: right;
+}
+.footerend .side .text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    margin: 25px 0 25px 0;
+}
+
+
 
 
 
