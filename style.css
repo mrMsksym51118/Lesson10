@@ -71,11 +71,13 @@ body {
     float: left;
     margin: 40px 405px 40px 0;
     padding: 12px 26px 13px 27px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
 }
 .secondnav {
     background-color: #FFFFFF;
-    max-width: 1920px;
-    height: 79px;
+    max-width: 1920px;    
     margin: 0 auto;
     text-align: center;
     padding: 30px 0 30px 0; 
@@ -112,12 +114,14 @@ body {
 .buy .content .button {
     background: #F13C6E;    
     border: 2px solid white;
-    box-sizing: border-box;
+    display: inline-block;
     border-radius: 40px;        
     margin: 50px 0 0 405px;
     padding: 12px 26px 13px 27px;
     width: 170px;
     color: white;
+    text-decoration: none;
+    text-align: center;
 }
 .bg__color {
     background-color: #C4C4C4;
@@ -130,15 +134,15 @@ body {
     color: #000000;
     padding: 80px 0 38px 405px;
 }
-.cards .conteiner {    
+.cards .container {    
     height: 363px;    
     margin: 0 auto;
     width: 1122px;   
 }
-.cards .conteiner .card__image {
+.cards .container .card__image {
     margin: 25px 65px 0 65px;
 }
-.cards .conteiner .description {
+.cards .container .description {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -146,7 +150,7 @@ body {
     max-width: 195px;
     margin: 20px 30px 0 30px;
 }
-.cards .conteiner .title__prise {
+.cards .container .title__prise {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -155,7 +159,7 @@ body {
     color: #000000;
     margin: 20 88px 0 87px;    
 }
-.cards .conteiner .button {
+.cards .container .button {
     background: #F13C6E;
     border: 2px solid #F13C6E;
     box-sizing: border-box;
@@ -165,20 +169,22 @@ body {
     padding: 12px 26px 13px 27px;
     width: 130px;
     color: white;
+    text-decoration: none;
+    text-align: center;
 }
-.cards .conteiner .cards__list .card {
+.cards .container .cards__list .card {
     display: inline-block;
     vertical-align: top;
     margin-right: 30px;
     background-color: white;           
 }
-.cards .conteiner .cards__list .card:nth-last-child(1) {
+.cards .container .cards__list .card:nth-last-child(1) {
 	margin-right: 0;
 }
 .aside {
     background-color: #C4C4C4;   
 }
-.aside .box .conteiner {
+.aside .box .container {
     background-color: #F13C6E;
     width: 540px;
     height: 212px;       
@@ -225,6 +231,8 @@ body {
     padding: 12px 26px 13px 27px;
     width: 170px;
     color: white;
+    text-decoration: none;
+    text-align: center;
 }
 .aside .border:hover {
     border: 1ps solid whitesmoke;
@@ -267,24 +275,24 @@ body {
     width: 1122px;
     height: 321px;
 }
-.categories .wrapper .conteiner {
+.categories .wrapper .container {
     display: inline-block;
     vertical-align: top;    
     width: 255px;
     margin-right: 30px;
     margin-top: 60px;
 }
-.categories .wrapper .conteiner:nth-last-child(1) {
+.categories .wrapper .container:nth-last-child(1) {
 	margin-right: 0;
 }
-.categories .wrapper .conteiner .title {
+.categories .wrapper .container .title {
     font-size: 16px;
     line-height: 140.62%;
     color: #000000;
     width: 99px;
     height: 40px;
 }
-.categories .wrapper .conteiner .list .item .link {
+.categories .wrapper .container .list .item .link {
     text-decoration: none;
     font-size: 12px;
     line-height: 28px;
