@@ -316,11 +316,11 @@ body {
     vertical-align: top;
 }
 .categories {
-   display: block;
+   display: inline-block;   
 }
-.categories .wrapper {
-    max-width: 1920px;    
-    margin-left: 405px; 
+.categories .wrapper {        
+    margin: 0 auto;
+    max-width: 1122px;
 }
 .categories .wrapper .container {
     display: inline-block;
