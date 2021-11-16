@@ -1,0 +1,32 @@
+/*320 - 768 - 1290*/
+
+/*0 - 1289*/
+@media (max-width: 1289px) {
+    .header {
+        width: auto;        
+    }
+    .container {
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+
+/*0 - 767*/
+@media (max-width: 767px) {
+    .header {
+        width: auto;
+        margin: 0 10px;        
+    }
+    .header .header__container .container {
+        padding: 12px 0;
+    }    
+    .nav__item {
+        margin-right: 15px;
+    }
+}    
+
+
+
