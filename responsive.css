@@ -1,7 +1,7 @@
 /*320 - 768 - 1290*/
 
-/*0 - 1289*/
-@media (max-width: 1289px) {
+/*0 - 1290*/
+@media (max-width: 1290px) {
     .header {
         width: auto;        
     }
@@ -10,9 +10,35 @@
         display: flex;
         justify-content: center;              
     }    
+    .nav__item {
+        margin: 0 15px 0 5px;
+    }
     .main {
         width: auto;
+    }  
+    .main .main__logo {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }    
+    .secondnav .secondnav__link {
+        margin: 0;
+        margin-right: 20px;
     }
+    .bg__img {
+        max-width: 100%;
+    }
+    .buy .content .title {
+        margin: 20px 0 0 25px;
+    }
+    .buy .content .description {
+        margin: 20px 0 0 25px;
+    }
+    .buy .content .button {
+        margin: 20px 0 0 25px;
+    }
+    
+    
 }
 
 
@@ -20,15 +46,53 @@
 @media (max-width: 767px) {
     .header {
         width: auto;
-        margin: 0 10px;        
+        margin: 0 10px;                
     }
     .header .header__container .container {
         padding: 12px 0;
+    }   
+    .main .main__logo {
+        width: auto;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .main .main__logo .logo {
+        display: flex;
+        justify-content: center;
     }    
-    .nav__item {
-        margin-right: 15px;
+    .main .logo .title {
+        text-align: center;
     }
-}    
+    .main .action {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main .action .phone {
+        text-align: center;
+        margin: 0;
+        
+    }
+    .main .action .button {
+        padding: 12px 75px 13px 75px;
+        margin: 20px 0;
+    }
+    .secondnav .secondnav__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .secondnav .secondnav__link {
+        margin: 0 0 5px 0;
+    }
+    .bg__img {
+        max-width: 100%;
+    }
+    .buy .content .title {
+        font-size: 25px;
+        line-height: 10px;
+}   } 
 
 
 
