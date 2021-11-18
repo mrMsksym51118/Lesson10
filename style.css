@@ -35,11 +35,15 @@ body {
 .main {
     max-width: 1920px;
 }
+.main .main__logo {
+    width: 1110px;
+    margin: 0 auto;    
+}
 .main .logo {
     float: left;
 }
 .main .logo .img {    
-    margin: 20px 0 20px 405px;
+    margin: 20px 0 20px 0;
     float: left;    
 }
 .main .logo .title {
@@ -67,7 +71,7 @@ body {
     box-sizing: border-box;
     border-radius: 40px;    
     float: left;
-    margin: 40px 405px 40px 0;
+    margin: 40px 0 40px 0;
     padding: 12px 26px 13px 27px;
     text-align: center;
     text-decoration: none;
