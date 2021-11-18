@@ -8,7 +8,7 @@ body {
     clear: both;     
 }
 .header {
-    width: 1920px;
+    max-width: 1920px;
 }
 .header__conteiner {
     margin: 0 auto;    
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 .main {
-    width: 1920px;
+    max-width: 1920px;
 }
 .main .logo {
     float: left;
@@ -314,11 +314,12 @@ body {
     vertical-align: top;
 }
 .categories {
-   display: inline-block;   
+   display: inline-block;  
+   max-width: 1920px; 
 }
-.categories .wrapper {        
-    margin: 0 auto;
-    max-width: 1122px;
+.categories .wrapper {   
+    width: 1122px;     
+    margin: 0 auto;    
 }
 .categories .wrapper .container {
     display: inline-block;
