@@ -346,15 +346,15 @@ body {
     line-height: 28px;
     color: #828282;    
 }
-.wrapp .wrappp {    
+.wrapp .container {    
     width: 1110px;
     margin: 0 auto;
 
 }
-.wrapp .wrappp .icons {
+.wrapp .container .icons {
     float: left;
 }
-.wrapp .wrappp .icons .icon__youtoob {
+.wrapp .container .icons .icon__youtoob {
     float: left;
     margin: 37px 20px 0 0;    
     border: 2px solid #F13C6E;
@@ -367,7 +367,7 @@ body {
     width: 45px;
     height: 45px;
 }
-.wrapp .wrappp .icons .icon__vk {
+.wrapp .container .icons .icon__vk {
     float: left;
     margin: 37px 20px 0 0;    
     border: 2px solid #F13C6E;
@@ -380,7 +380,7 @@ body {
     width: 45px;
     height: 45px;
 }
-.wrapp .wrappp .icons .icon__facebook {
+.wrapp .container .icons .icon__facebook {
     float: left;
     margin: 37px 20px 0 0;    
     border: 2px solid #F13C6E;
@@ -393,7 +393,7 @@ body {
     width: 45px;
     height: 45px;
 }
-.wrapp .wrappp .icons .icon__inst {
+.wrapp .container .icons .icon__inst {
     float: left;
     margin: 37px 20px 0 0;    
     border: 2px solid #F13C6E;
@@ -409,13 +409,13 @@ body {
 .wrapp .action {
     float: right;
 }
-.wrapp .wrappp .action .phone {
+.wrapp .container .action .phone {
     line-height: 19px;
     color: #000000;
     margin-top: 50px;
     float: left;
 }
-.wrapp .wrappp .action .button {
+.wrapp .container .action .button {
     background: #FFFFFF;
     border: 2px solid #F13C6E;
     box-sizing: border-box;
