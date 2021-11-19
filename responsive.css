@@ -23,6 +23,9 @@
         justify-content: center;   
         width: auto;     
     }    
+    .secondnav__item:last-child {
+        margin-right: 0;
+    }
     .secondnav .secondnav__link {
         margin: 0;
         margin-right: 20px;
@@ -90,7 +93,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }    
+    } 
+    .secondnav__item:last-child {
+        margin-bottom: 0;
+    }      
     .secondnav .secondnav__link {
         margin: 0 0 5px 0;
     }
