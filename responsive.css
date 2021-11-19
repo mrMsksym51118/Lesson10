@@ -44,10 +44,15 @@
     }    
     .bg__color .cards .title {
         text-align: center;
+    }    
+    .bg__color .cards .title {
+        padding: 20px 0 20px 0;
     }
-    .main .bg__color .cards .container .card__list {
-        display: flex;
-        justify-content: space-around;
+    .main .bg__color .cards .container .cards__list .card:nth-last-child(1) {
+        margin-right: 30px;
+    }
+    .main .bg__color .cards .container .cards__list .card:nth-child(1) {
+        margin-bottom: 30px;
     }
     
     
@@ -106,7 +111,7 @@
     .buy .content {
         width: auto;
         display: flex;
-        flex-direction: column;               
+        flex-direction: column;                      
     }
     .buy .content .title {
         font-size: 25px;
@@ -121,14 +126,23 @@
         text-align: center;
     }    
     .buy .content .button {
-        width: 100%;
-        margin: 15px 0 0 15px;
-        padding: 12px 95px 13px 95px
+        width: auto;        
+        padding: 12px 90px 13px 90px;
     }
     .bg__color .cards .title {
-        padding: 40px 0 0 0;
-        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 20px;
     }
+    .main .bg__color .cards .container .cards__list .card {
+        margin-bottom: 30px;
+        margin-left: 30px;
+        
+    }
+    .main .bg__color .cards .container .cards__list .card:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+   
+    
 }    
 
 

@@ -104,14 +104,14 @@ body {
     font-size: 48px;
     line-height: 56px;
     color: #FFFFFF;
-    margin: 192px 0 50px 405px;
+    margin: 192px 0 50px 405px;    
 }
 .buy .content .description {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
     max-width: 308px;
-    margin-left: 405px;
+    margin-left: 405px;    
 }
 .buy .content .button {
     background: #F13C6E;    
@@ -123,8 +123,11 @@ body {
     width: 170px;
     color: white;
     text-decoration: none;
-    text-align: center;
+    text-align: center;    
 }
+.buy .content .bg__img {    
+    background-image: url(images/super_chair.png);   
+ }
 .bg__color {
     background-color: #efefef; 
     max-width: 1920px;   
