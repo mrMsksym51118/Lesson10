@@ -54,6 +54,13 @@
     .main .bg__color .cards .container .cards__list .card:nth-child(1) {
         margin-bottom: 30px;
     }
+    .aside .box .container {
+        margin: 0;
+        text-align: center;
+    }
+    #id {
+        margin: 0;
+    }
     
     
 }

@@ -231,70 +231,92 @@ body {
 .main .bg__color .cards .main__container .cards__list .card:nth-last-child(1) {
     margin-right: 0;
 }
-.aside {
-    background-color: #efefef;   
+.wrap .container {
+    max-width: 1110px;
+    margin: 0 auto;
 }
-.aside .box .container {
-    background-color: #F13C6E;
-    width: 540px;
-    height: 212px;       
-    margin: 120px 0px 100px 405px; 
-    display: inline-block; 
-    vertical-align: top;    
-}
-.aside .aside__list {
-    display: inline-block; 
-    vertical-align: top;
-}
-.aside .box .image {
+.wrap .container .leftbox {
+    background-color: #F13C6E;         
     display: inline-block; 
     vertical-align: top;   
-    margin: 52.73px 40px 52.72px 0;
-   
+   margin: 100px 30px 0 0; 
 }
-.aside .title {
+.leftbox__list {
+    display: inline-block;    
+    vertical-align: top; 
+}
+.leftbox .image {
+    display: inline-block;  
+    vertical-align: top;     
+    margin: 52.73px 45px 52.73px 65px;   
+}
+.leftbox .title {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    margin: 35px 65px 25px 40px;
+    margin: 35px 0 25px 40px;
 }
-.aside .description {
+.leftbox .description {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
     max-width: 231px;
-    margin: 0 0 25px 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
 }
-.aside .aside__list .field {
+.leftbox .field {
     background: #FFFFFF;
     border-radius: 30px;
     padding: 9px 104px 9px 25px;
-    margin: 0 0 35px 40px;
-    width: 225px;
+    margin-left: 40px;
+    max-width: 225px;
+    color: #C4C4C4;   
+    font-size: 14px;
+    line-height: 16px;
 }
-.aside .button {
+.wrap .container .rightbox {
+    background-color: #F13C6E;           
+    display: inline-block; 
+    vertical-align: top;   
+    margin-top:  100px;
+}
+.rightbox__list {
+    display: inline-block; 
+    vertical-align: top;
+}
+.rightbox .image {
+    display: inline-block; 
+    vertical-align: top;   
+    margin: 56px 45.33px 56px 96px;   
+}
+.rightbox .title {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 35px 0 25px 40px;
+}
+.rightbox .description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 141px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.rightbox .button {
+    display: inline-block;
     background: #F13C6E;    
     border: 2px solid white;
     box-sizing: border-box;
     border-radius: 40px; 
-    margin: 0 0 35px 40px;
-    padding: 12px 26px 13px 27px;
-    width: 170px;
+    margin-left: 40px;
+    padding: 9px 28px 9px 29px;
+    max-width: 180px;
     color: white;
     text-decoration: none;
     text-align: center;
-}
-.aside .border:hover {
-    border: 1ps solid whitesmoke;
-}
-.leftbox {
-    float: left;
-}
-.rightbox {
-    float: right;   
-}
-#id {
-    margin: 120px 0px 100px 30px
+    font-size: 14px;
+    line-height: 16px;
 }
 .impuls {
     background-color: #EFEFEF;   
