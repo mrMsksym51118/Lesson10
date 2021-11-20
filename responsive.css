@@ -59,9 +59,26 @@
         flex-direction: column;
         justify-content: center;
         margin: 0 50px;
-    }    
+    } 
+    .wrap .container .leftbox {
+        margin-top: 30px;
+    }   
+    .wrap .container .rightbox {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
     .wrap .container .leftbox:nth-child(1) {        
         margin-right: 0;
+    }
+    .impuls .block {
+        width: auto;
+        margin: 0 50px;  
+        display: flex;
+        justify-content: center;  
+                  
+    }
+    .impuls .item .img__second {
+        padding: 20px 10px 20px 10px;
     }
    
    
