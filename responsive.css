@@ -200,6 +200,12 @@
     .rightbox .image {
         margin: 52px 0 52px 17px;
     }
+    .impuls .item .img__second {
+        max-width: 60px;
+    }
+    .impuls .item .img__second {
+        padding: 10px 10px;
+    }
       
    
     
