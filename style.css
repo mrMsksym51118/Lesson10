@@ -234,12 +234,12 @@ body {
 .wrap .container {
     max-width: 1110px;
     margin: 0 auto;
-}
+    }
 .wrap .container .leftbox {
     background-color: #F13C6E;         
     display: inline-block; 
     vertical-align: top;   
-   margin: 100px 30px 0 0; 
+    margin: 100px 30px 100px 0; 
 }
 .leftbox__list {
     display: inline-block;    
@@ -324,7 +324,7 @@ body {
 .impuls .block {
     width: 1110px;    
     background-color: #FFFFFF;
-    margin: 0 405px 0 405px;   
+    margin: 0 auto;   
 }
 .impuls .item .img__first {
     padding: 35px 67px 35px 58px;    
@@ -342,13 +342,14 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-.categories {
-   display: inline-block;  
+.categories {    
    max-width: 1920px; 
 }
 .categories .wrapper {   
-    width: 1122px;     
-    margin: 0 auto;    
+    width: 1110px;     
+    margin: 0 auto;  
+    padding-bottom: 60px;  
+    border-bottom: 1px solid #EFEFEF;
 }
 .categories .wrapper .container {
     display: inline-block;
